@@ -1,7 +1,7 @@
-const recentActivities = [
+const recentActivity = [
   {
     date: "Today - June 21, 2020",
-    activities: [
+    activity: [
       {
         activityType: "Uploaded",
         name: "James Dias",
@@ -9,7 +9,7 @@ const recentActivities = [
         message: "Uploaded Photosurvey.pdf",
       },
       {
-        activityType: "Aprroved",
+        activityType: "Approved",
         name: "James Dias",
         time: "4.35 PM",
         message: "Aprroved Report",
@@ -42,7 +42,7 @@ const recentActivities = [
   },
   {
     date: "Yesterday - June 20, 2020",
-    activities: [
+    activity: [
       {
         activityType: "Uploaded",
         name: "James Dias",
@@ -50,13 +50,13 @@ const recentActivities = [
         message: "Uploaded Photosurvey.pdf",
       },
       {
-        activityType: "Aprroved",
+        activityType: "NewSchedule",
         name: "James Dias",
         time: "4.35 PM",
-        message: "Aprroved Report",
+        message: "New Inspection Schedule",
       },
     ],
   },
 ];
 
-export { recentActivities };
+export { recentActivity };

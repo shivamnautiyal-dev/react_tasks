@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import RecentActivities from "./components/RecentActivites/RecentActivities";
+import RecentActivity from "./components/RecentActivites/RecentActivity";
 import Demo from "./demo";
 
-ReactDOM.render(<RecentActivities />, document.querySelector("#root"));
+ReactDOM.render(<RecentActivity />, document.querySelector("#root"));
